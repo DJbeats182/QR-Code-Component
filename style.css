@@ -22,6 +22,7 @@ body {
 }
 
 .main {
+    /* position: absolute; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -31,13 +32,15 @@ body {
     border-radius: 25px;
     padding: 16px;
     width: 300px;
-   
+    left: 50%;   
 }
 
 .head {
     font-family: 'Outfit', 'sans-Serif';
-    font-size: 15px;
+    font-size: 23px;
     font-weight: 700;
+    padding: 5px;
+    text-align: center;
 }
 
 .qr-code {
@@ -49,4 +52,7 @@ p {
     font-size: 15px;
     font-family: 'Outfit', 'sans-Serif';
     font-weight: 400;
+    padding: 10px 20px;
+    text-align: center;
+    margin: 0;
 }
